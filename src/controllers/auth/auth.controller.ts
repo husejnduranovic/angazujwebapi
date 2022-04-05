@@ -1,5 +1,5 @@
 import { Body, Controller, Get, Post } from "@nestjs/common";
-import { from, map, Observable } from "rxjs";
+import { Observable } from "rxjs";
 import { LoginUseCase } from "src/usecases/auth/LoginUseCase";
 import { RegisterUseCase } from "src/usecases/auth/RegisterUseCase";
 import { User } from "../../models/user/user.interface";

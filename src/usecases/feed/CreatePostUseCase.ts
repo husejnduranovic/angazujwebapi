@@ -7,8 +7,6 @@ import { FeedRepository } from "../../repositories/feed.repository";
 export class CreatePostUseCase {
     
     constructor(
-        // @InjectRepository(FeedPostEntity)
-        // private readonly feedPostRepository: Repository<FeedPostEntity>
         private readonly feedRepository: FeedRepository
     ){}
 
